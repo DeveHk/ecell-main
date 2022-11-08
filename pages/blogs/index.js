@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Layout from '@/components/Layout';
-import Post from '@/components/Post';
+import Layout from '@/components/blogs/Layout';
+import Post from '@/components/blogs/Post';
 import { getPosts } from '@/lib/posts';
 
 export default function HomePage({ posts }) {

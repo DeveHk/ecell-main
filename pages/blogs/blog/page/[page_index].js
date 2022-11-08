@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import Layout from '@/components/Layout';
-import Post from '@/components/Post';
-import Pagination from '@/components/Pagination';
-import CategoryList from '@/components/CategoryList';
+import Layout from '@/components/blogs/Layout';
+import Post from '@/components/blogs/Post';
+import Pagination from '@/components/blogs/Pagination';
+import CategoryList from '@/components/blogs/CategoryList';
 import { getPosts } from '@/lib/posts';
 import { POSTS_PER_PAGE } from '@/config/index';
 

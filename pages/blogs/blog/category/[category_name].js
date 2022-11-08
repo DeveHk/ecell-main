@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import Layout from '@/components/Layout';
-import Post from '@/components/Post';
-import CategoryList from '@/components/CategoryList';
+import Layout from '@/components/blogs/Layout';
+import Post from '@/components/blogs/Post';
+import CategoryList from '@/components/blogs/CategoryList';
 import { getPosts } from '@/lib/posts';
 
 export default function CategoryBlogPage({ posts, categoryName, categories }) {
