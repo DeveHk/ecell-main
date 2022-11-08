@@ -19,22 +19,22 @@ export default function ContactUs() {
             <form className="mt-5 lg:mt-10  mb-20">
                 <div className="flex flex-col pr-20 md:pr-36 relative">
                   <div className="flex justify-between">
-                  <input className="rounded-full text-lg pl-4 mr-5 md:mr-5" placeholder="Full Name"></input>
-                  <input className="rounded-full text-lg pl-4 " placeholder="Contact"></input>
+                  <input className="rounded text-lg px-4 py-1.5 mr-5 focus:outline-0 md:mr-5" placeholder="Full Name"></input>
+                  <input className="rounded text-lg px-4 py-1.5 focus:outline-0" placeholder="Contact"></input>
                 </div>
-                
-                <div className="absolute right-20 top-16 md:right-36 md:top-16 p-2 m-3 text-gray-100 bg-primary rounded-3xl px-10">Connect</div>
-
-                  <div className="rounded-3xl mt-10 p-4 bg-gray-100"><textarea id="message" className="w-3/4 bg-gray-100" placeholder="Message"></textarea></div>
+              
+                <textarea id="message" className="rounded mt-4 p-2 px-4 w-full focus:outline-0" rows="3" placeholder="Message"></textarea>
+                <button className="p-2 mt-4 bg-white text-xl text-gray-500  rounded px-10 w-fit hover:bg-gray-200">Connect</button>
+                    
                 
                 </div>
             </form>
-            <span className="mt-20 text-gray-100 font-bold text-2xl">Mail Us at:</span>
-            <button onClick={() => window.location = 'mailto:yourmail@domain.com'}><span className="mt-20 text-gray-100 text-2xl ml-5">xyz@ecellnsut.com</span></button>
+            <span className="mt-20 text-gray-100 font-semibold text-2xl ">Mail Us at:&nbsp;</span>
+            <a href="mailto:xyz@ecell.com" className="text-gray-100 text-2xl">xyz@ecell.com</a>
           </div>
 
 
-        </div>
+        </div> 
         <div className="hidden xl:block h-max w-full">
           <Image  src={buildings} alt='' objectFit="fill" />
         </div>
