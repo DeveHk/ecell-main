@@ -14,7 +14,7 @@ import {Autoplay, Pagination} from "swiper";
 const Sponsers = () => {
   return (
     <>
-    <h1 className="text-center text-3xl font-semibold mb-1  ">Our Sponsers</h1>
+    <h1 className="text-center text-3xl font-semibold mb-1  ">Our Sponsors</h1>
     <div className="w-[80%] h-[200px] mx-auto  ring-offset-4 bg-[#FE745F] p-5 my-5 rounded-md overflow-hidden swiper-box ">
       
       <Swiper
