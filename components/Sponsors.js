@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 // import required modules
 import {Autoplay, Pagination} from "swiper";
 
-const Sponsers = () => {
+const Sponsors = () => {
   return (
     <>
     <h1 className="text-center text-3xl font-semibold mb-1  ">Our Sponsors</h1>
@@ -62,4 +62,4 @@ const Sponsers = () => {
   )
 }
 
-export default Sponsers
+export default Sponsors
