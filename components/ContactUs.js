@@ -1,12 +1,18 @@
 import React from "react";
+import up from "../public/images/contact us/up.svg";
 import buildings from "../public/images/contact us/buildings.svg";
 
 import Image from "next/image";
 
 export default function ContactUs() {
   return (
-    <div className=" bg-primary w-screen">
-      <div className="flex justify-between h-max">
+    <div className="relative">
+      <Image src={up} 
+      fill
+      sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw" />
+      <div className="flex justify-between h-max bg-primary ">
         <div className="px-10 md:px-24 pt-15 md:pt-10 flex flex-col">
           <span className="text-3xl font-bold text-gray-100">Contact Us</span>
           <span className="text-gray-100 text-md font-thin mt-10 mr-36 ">

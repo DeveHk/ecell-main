@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import ins from "../public/images/footer/ins.png";
-import twi from "../public/images/footer/ins.png";
-import fb from "../public/images/footer/ins.png";
-import logo from "../public/images/footer/ins.png";
+import twi from "../public/images/footer/twi.png";
+import fb from "../public/images/footer/fb.png";
+import logo from "../public/images/footer/logo1.png";
 
 let titles = [
     ['Links', 'Home', 'About', 'Team', 'Initiatives', 'Community'],
@@ -35,13 +35,19 @@ const List = ({ tits }) => {
   return (
     <div className='md:w-52 h-32 md:h-56 flex flex-col sm:flex-row md:flex-col first-letter: justify-around items-center'>
         <div className='flex justify-center items-center '>
-            <Image src="/images/footer/logo1.png" height="2.5rem" width="2.5rem" className='' alt="eCell" srcSet="" />
+        <Image src={logo}  width={60} height={60} alt="eCell" className='hover:scale-y-105 transition-all '/>
             <span className='font-mono text-white  w-16 ml-2 text-sm'>eCell NSUT</span>
         </div>
         <div className='flex space-x-3'>
-            <Image src="/images/footer/fb.png" height="1.5rem" width="1.5rem" alt="facebook" className='transition-all hover:scale-125 h-6' />
-            <Image src="/images/footer/twi.png" height="1.5rem" width="1.5rem" alt="twitter" className=' transition-all hover:scale-125 '/>
-            <Image src="/images/footer/ins.png" height="1.5rem" width="1.5rem" alt="" className='hover:scale-125 transition-all  '/>
+            <div>
+            <Image src={fb} alt="fb" width={30} height={30} className='hover:scale-125 transition-all mr-10'/>
+            </div>
+            <div className="">
+            <Image src={twi} alt="tw" width={30} height={30} className='hover:scale-125 transition-all '/>
+            </div>
+            <div className="">
+            <Image src={ins} alt="ins" width={30} height={30} className='hover:scale-125 transition-all '/>
+            </div>
         </div>
     </div>
   )
