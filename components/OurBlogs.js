@@ -6,7 +6,11 @@ const OurBlogs = ({ posts }) => {
 	return (
 		<>
 			<div className="translate-y-2 relative">
-				<Image src={waveImg} alt="wave" />
+				<Image src={waveImg} alt="wave"
+				 fill
+				 sizes="(max-width: 768px) 100vw,
+					   (max-width: 1200px) 50vw,
+					   33vw" />
 			</div>
 			<section className="px-24 py-12 pt-0 relative bg-primary">
 				<h2 className='text-center text-4xl font-bold mb-8 text-white'>Our Blogs</h2>
@@ -18,7 +22,11 @@ const OurBlogs = ({ posts }) => {
 					}
 				</div>
 			</section>
-			<Image src={waveImg} alt="wave" className="rotate-180 -translate-y-2 w-screen" />
+			<Image src={waveImg} alt="wave" className="rotate-180 -translate-y-2 w-screen"
+			 fill
+			 sizes="(max-width: 768px) 100vw,
+				   (max-width: 1200px) 50vw,
+				   33vw" />
 		</>
 	)
 }

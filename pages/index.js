@@ -7,6 +7,7 @@ import OurBlogs from "@/components/OurBlogs";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import { getPosts } from "@/lib/posts";
+import Header from "@/components/Header/Header";
 
 export default function Home({ posts }) {
   return (
@@ -20,6 +21,7 @@ export default function Home({ posts }) {
     />
       </Head>
       <Navbar/>
+      <Header/>
       <Sponsors/>
       <AboutUs />
       <OurBlogs posts={posts} />
