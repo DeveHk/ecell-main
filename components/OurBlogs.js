@@ -10,7 +10,7 @@ const OurBlogs = ({ posts }) => {
 			</div>
 			<section className="px-24 py-12 pt-0 relative bg-primary">
 				<h2 className='text-center text-4xl font-bold mb-8 text-white'>Our Blogs</h2>
-				<div className="grid grid-cols-3 gap-6">
+				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 ">
 					{
 						posts.map((post, index) => (
 							<Post key={index} post={post} />
