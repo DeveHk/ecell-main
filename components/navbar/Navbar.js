@@ -10,7 +10,7 @@ const Navbar = () => {
     setClicked(!clicked)
   }
     return (
-      <nav className='h-[75px] flex justify-center items-center text-[1.3em] navbar '>
+      <nav className='h-[75px] flex justify-center items-center text-[1.3em] navbar z-[100]'>
 
         <div className="flex justify-center">
           <Image src={icon}/>

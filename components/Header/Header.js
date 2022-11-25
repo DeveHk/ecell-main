@@ -1,11 +1,19 @@
-import Image from "next/image"
-import img1 from '../../public/images/Header/gyp-front-1000.webp'
-import img2 from '../../public/images/Header/gyp2-front-1000.webp'
+import React from 'react'
+import Content from './Content'
+import Graphic from './Graphic'
+
 const Header = () => {
   return (
-    <div>
-     
+    <>
+    <div className="md:grid md:grid-cols-10 flex flex-col">
+        <div className="col-span-5">
+    <Content/>
     </div>
+    <div className="col-span-5">
+    <Graphic/>
+    </div>
+    </div>
+    </>
   )
 }
 

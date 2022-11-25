@@ -15,6 +15,11 @@ export const Menu = [
       className: "nav-links"
     },
     {
+      title: "Blog",
+      url: "#",
+      className: "nav-links"
+    },
+    {
       title: "Contact Us",
       url: "#",
       className: "nav-links-highlight",

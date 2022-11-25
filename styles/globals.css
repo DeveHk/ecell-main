@@ -95,7 +95,7 @@ ol {
 }
 .nav-menu{
   display: grid;
-  grid-template-columns: repeat(4, 130px);
+  grid-template-columns: repeat(5, 130px);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -164,7 +164,7 @@ ol {
   }
   .nav-links,.nav-links-highlight {
     text-align: center;
-    padding: 2rem;
+    padding: 1.2rem;
     width: 100%;
     display: table;
   }
