@@ -4,7 +4,7 @@ const Events = () => {
   return (
     <section className='events-container px-24 pt-12 pb-20'>
       <h2 className='p-10 font-bold text-center text-5xl mb-2'>Events</h2>
-      <div className='grid grid-rows-3 md:grid-cols-2 md:grid-rows-3  lg:grid-rows-1 lg:grid-cols-3 space-y-12 md:space-y-0 m-auto'>
+      <div className='grid grid-rows-3 md:grid-cols-2 md:grid-rows-3  lg:grid-rows-1 lg:flex lg:justify-around'>
         <EventCard />
         <EventCard />
         <EventCard />

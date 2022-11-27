@@ -8,10 +8,11 @@ import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import { getPosts } from "@/lib/posts";
 import Header from "@/components/Header/Header";
+import OurTeam from "@/components/OurTeam";
 
 export default function Home({ posts }) {
   return (
-    <div className="bg-white">
+    <div className="bg-white overflow-hidden relative">
       <Head>
       <link
       rel="stylesheet"
@@ -25,6 +26,7 @@ export default function Home({ posts }) {
       <Sponsors/>
       <AboutUs />
       <OurBlogs posts={posts} />
+      <OurTeam/>
       <Events />
       
       <ContactUs />
