@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const EventCard = () => {
     return (
-        <div className='event-card shadow-2xl p-5 rounded-2xl hover:scale-105 transition-transform duration-200'>
+        <div className='event-card shadow-2xl p-5 rounded-2xl hover:scale-105 transition-transform duration-200 max-w-[500px]'>
             <h3 className="text-center mb-2 font-extrabold text-lg">E-SUMMIT</h3>
             <div className='w-full h-56 relative rounded-xl overflow-hidden'>
                 <Image src="/images/event.jpg" alt="event" layout="fill" className='rounded-xl' />

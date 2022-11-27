@@ -12,10 +12,10 @@ export default function ContactUs() {
         sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw" />
-      <div className="justify-between h-max bg-primary flex lg:flex-row flex-col items-center ">
+      <div className="justify-around lg:px-20 h-max bg-primary flex lg:flex-row flex-col items-center ">
         
         <div className="flex flex-col justify-center mx-10 md:max-w-[700px]">
-          <span className="text-3xl font-bold text-gray-100">Contact Us</span>
+          <span className="text-4xl  font-bold text-gray-100 leading-2	">Contact Us</span>
           <span className="text-gray-100 text-md font-thin md:mt-10 md:mr-36 ">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
             ipsa tempora soluta mollitia delectus nam architecto possimus id aut

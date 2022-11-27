@@ -51,7 +51,9 @@ ol {
 
 
 .swiper-box{
-  box-shadow:  0px 0px 30px 8px rgba(0, 0, 0, 0.2);
+ /* box-shadow:  0px 0px 30px 8px rgba(0, 0, 0, 0.2);*/
+ box-shadow:  0px 0px 30px 8px rgba(0, 0, 0, 0.2);
+ 
 }
 .swiper {
   width: 100%;
@@ -61,7 +63,9 @@ ol {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background-color:#293241 ;
+  
+ box-shadow:  0px 0px 10px 8px rgba(0, 0, 0, 0.2);
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -87,6 +91,8 @@ ol {
 
 
 .navbar{
+    position: sticky;
+    top: 0;
     background: rgba(255, 255, 255, 1);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
@@ -187,3 +193,12 @@ ol {
   }
 }
 
+.bead{
+  background-color: #d97705;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+
+}
