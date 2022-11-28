@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import CategoryLabel from './CategoryLabel';
+import useScrollAnimation from '../Hooks/useScrollAnimation';
 
 const Post = ({ post, compact }) => {
+  const card=useScrollAnimation(['slide-top'],['invisible'])
   return (
-    <div className="w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6">
+    <div ref={card} className="w-full px-10 py-6 invisible bg-white rounded-lg shadow-md mt-6">
       {!compact && (
         <Image
           src={post.frontmatter.cover_image}

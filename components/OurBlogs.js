@@ -2,6 +2,7 @@ import Image from "next/image";
 import Post from "./blogs/Post";
 import waveImg from "../public/images/wave.svg"
 import { useEffect } from "react";
+import useScrollAnimation from "./Hooks/useScrollAnimation";
 
 const OurBlogs = ({ posts }) => {
 	
@@ -20,9 +21,12 @@ const OurBlogs = ({ posts }) => {
 				<h2 className='p-10 font-bold text-center text-5xl mb-2 text-white'>Our Blogs</h2>
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 ">
 					{
-						posts.map((post, index) => (
+						posts.map((post, index) => {
+							return(
+								
 							<Post key={index} post={post} />
-						))
+
+						)})
 					}
 				</div>
 			</section>
