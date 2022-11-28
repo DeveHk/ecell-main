@@ -24,7 +24,7 @@ export default function OurTeam() {
 					   (max-width: 1200px) 50vw,
 					   33vw" />
              </div>
-    <div className="ourTeam relative  z-20 bg-[#293241] flex items-center flex-col">
+    <div className="ourTeam relative  bg-[#293241] flex items-center flex-col">
     <h2 className='p-2 font-bold text-center text-5xl mb-1 text-white'>Our Team</h2>
     <div className="xl:max-w-[60vw]">
       <Swiper

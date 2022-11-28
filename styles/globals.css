@@ -259,8 +259,6 @@ ol {
 
 
 
-
-@media only screen and (max-width: 800px) {
   .slide-left {
     position: relative;
     animation: slide-l 0.6s ease-in 1 0s none;
@@ -300,8 +298,7 @@ ol {
       right: 0px;
     }
   }
-}
-@media only screen and (min-width: 800px){
+
   .slide-top{  
     position: relative;
     animation: slide 1s ease-in 1 0s none;
@@ -352,4 +349,3 @@ ol {
       right: 0px;
     }
   }
-}
