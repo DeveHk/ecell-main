@@ -16,7 +16,7 @@ export const Menu = [
     },
     {
       title: "Blog",
-      url: "#",
+      url: "/blogs",
       className: "nav-links"
     },
     {

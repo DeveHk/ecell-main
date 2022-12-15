@@ -117,8 +117,8 @@ const Graphic = () => {
             <path d="M137.567 0.282318H136.404V30.2462H137.567V0.282318Z" fill="#F0F0F0" />
           </g>
           <defs>
-            <filter id="filter0_d_22_1757" x="0.843994" y="0.282318" width="169" height="421" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <filter id="filter0_d_22_1757" x="0.843994" y="0.282318" width="169" height="421" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
               <feGaussianBlur stdDeviation="2" />

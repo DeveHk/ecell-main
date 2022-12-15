@@ -3,6 +3,7 @@ import React, {useState } from "react";
 import { Menu } from "./Menu";
 import icon from '../../public/images/NAv/logo 2 1.svg'
 import name from '../../public/images/NAv/eCELL NSUT.svg'
+import Link from 'next/link';
 
 const Navbar = () => {
   const [clicked,setClicked]=useState(false)
@@ -29,9 +30,11 @@ const Navbar = () => {
           {Menu.map((item, i) => {
             return (
               <li key={i}>
-                <a className={item.className} href={item.url}>
+                <Link href={item.url}>
+                <a className={item.className}>
                   {item.title}
                 </a>
+                </Link>
               </li>
             );
           })}
