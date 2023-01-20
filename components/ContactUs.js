@@ -6,13 +6,13 @@ import Image from "next/image";
 
 export default function ContactUs() {
   return (
-    <div className="relative">
+    <div className="relative ">
       <Image src={up}
         fill
         sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw" />
-      <div className="justify-around lg:px-20 h-max bg-primary flex lg:flex-row flex-col items-center ">
+      <div className=" lg:px-20 h-max bg-primary flex lg:flex-row flex-col items-center ">
         
         <div className="flex flex-col justify-center mx-10 md:max-w-[700px]">
           <span className="text-4xl  font-bold text-gray-100 leading-2	">Contact Us</span>
@@ -42,8 +42,8 @@ export default function ContactUs() {
 
 
         </div>
-        <div className="hidden lg:block ">
-          <Image src={buildings} alt='' height={500} width={500} />
+        <div className="hidden lg:block absolute md:right-20 right-6 top-24 ">
+          <Image src={buildings} alt='' height={600} width={600} />
         </div>
       </div>
     </div>
